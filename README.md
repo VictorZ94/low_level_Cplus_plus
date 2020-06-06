@@ -1,6 +1,6 @@
 ## Session to start working code programming in c++
 
-###1. positive is better than negative
+### 1. positive is better than negative
 
 	- to do a program that print number positive and negativo
 

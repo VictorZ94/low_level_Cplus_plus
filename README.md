@@ -41,3 +41,45 @@ Example:
 [victorz@ManjaroKDE low_level_Cplus_plus]$
 
 ```
+
+### Write a program tha print a number and its last digit.
+
+	- if the last digit of n is greater than 5: the string and is greater than 5
+	- if the last digit of n is 0: the string and is 0
+	- if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
+
+```
+[victorz@ManjaroKDE low_level_Cplus_plus]$ g++ -Wall -pedantic -Werror -Wextra last_digit.cpp -o last_digit
+[victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
+Last digit of -1024401477 is -7 and is less than 6 and not 0
+Last digit of -1024401477 is -7 and is less than 6 not 0
+[victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
+Last digit of -566648959 is -9 and is less than 6 and not 0
+Last digit of -566648959 is -9 and is less than 6 not 0
+[victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
+Last digit of 225238069 is 9 and is greater than 5
+Last digit of 225238069 is 9 and is greater than 5
+[victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
+Last digit of -683520782 is -2 and is less than 6 and not 0
+Last digit of -683520782 is -2 and is less than 6 not 0
+[victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
+Last digit of 856307077 is 7 and is greater than 5
+Last digit of 856307077 is 7 and is greater than 5
+[victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
+Last digit of 553850035 is 5 and is less than 6 and not 0
+Last digit of 553850035 is 5 and is less than 6 not 0
+[victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
+Last digit of -830411311 is -1 and is less than 6 and not 0
+Last digit of -830411311 is -1 and is less than 6 not 0
+[victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
+Last digit of -370255429 is -9 and is less than 6 and not 0
+Last digit of -370255429 is -9 and is less than 6 not 0
+[victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
+Last digit of -665491020 is 0 is Zero
+Last digit of -665491020 is 0 is Zero
+[victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
+Last digit of -204146364 is -4 and is less than 6 and not 0
+Last digit of -204146364 is -4 and is less than 6 not 0
+
+
+```

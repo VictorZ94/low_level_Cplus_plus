@@ -28,13 +28,13 @@ Example:
 
 ```
 
-### write a program that print numbers from 00 .. 99
+### 2. write a program that print numbers from 00 .. 99
 
 	- using only putchar
 
 Example:
 
-```
+```C
 [victorz@ManjaroKDE low_level_Cplus_plus]$ g++ -Wall -Werror -Wextra print_comb.cpp -o print_comb
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./print_comb | cat -e
 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
@@ -46,13 +46,13 @@ Example:
 
 ```
 
-### Write a program tha print a number and its last digit.
+### 3. Write a program tha print a number and its last digit.
 
 	- if the last digit of n is greater than 5: the string and is greater than 5
 	- if the last digit of n is 0: the string and is 0
 	- if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
 
-```
+```C
 [victorz@ManjaroKDE low_level_Cplus_plus]$ g++ -Wall -pedantic -Werror -Wextra last_digit.cpp -o last_digit
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
 Last digit of -1024401477 is -7 and is less than 6 and not 0
@@ -84,6 +84,5 @@ Last digit of -665491020 is 0 is Zero
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
 Last digit of -204146364 is -4 and is less than 6 and not 0
 Last digit of -204146364 is -4 and is less than 6 not 0
-
 
 ```

@@ -1,5 +1,10 @@
 ## Session to start working code programming in c++
 
+### 0. Hello World
+
+prints Hello world with C++
+
+
 ### 1. positive is better than negative
 
 	- to do a program that print number positive and negativo
@@ -52,37 +57,48 @@ Example:
 	- if the last digit of n is 0: the string and is 0
 	- if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
 
-```C
+```C++
 [victorz@ManjaroKDE low_level_Cplus_plus]$ g++ -Wall -pedantic -Werror -Wextra last_digit.cpp -o last_digit
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
 Last digit of -1024401477 is -7 and is less than 6 and not 0
-Last digit of -1024401477 is -7 and is less than 6 not 0
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
 Last digit of -566648959 is -9 and is less than 6 and not 0
-Last digit of -566648959 is -9 and is less than 6 not 0
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
-Last digit of 225238069 is 9 and is greater than 5
 Last digit of 225238069 is 9 and is greater than 5
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
 Last digit of -683520782 is -2 and is less than 6 and not 0
-Last digit of -683520782 is -2 and is less than 6 not 0
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
-Last digit of 856307077 is 7 and is greater than 5
 Last digit of 856307077 is 7 and is greater than 5
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
 Last digit of 553850035 is 5 and is less than 6 and not 0
-Last digit of 553850035 is 5 and is less than 6 not 0
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
 Last digit of -830411311 is -1 and is less than 6 and not 0
-Last digit of -830411311 is -1 and is less than 6 not 0
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
 Last digit of -370255429 is -9 and is less than 6 and not 0
-Last digit of -370255429 is -9 and is less than 6 not 0
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
-Last digit of -665491020 is 0 is Zero
 Last digit of -665491020 is 0 is Zero
 [victorz@ManjaroKDE low_level_Cplus_plus]$ ./last_digit 
 Last digit of -204146364 is -4 and is less than 6 and not 0
-Last digit of -204146364 is -4 and is less than 6 not 0
+
+```
+
+### 4. Write a program to display the first 10 natural numbers.
+	-only using putchar
+
+```C++
+[victorz@ManjaroKDE 0x01-if_and_loops]$ g++ -Wall -Werror -Wextra 5-print_numbers.cpp _putchar.cpp -o 5-print_number
+[victorz@ManjaroKDE 0x01-if_and_loops]$ ./5-print_number 
+0123456789
+[victorz@ManjaroKDE 0x01-if_and_loops]$
+
+```
+
+### 5. Write a C program to find the sum of first 10 natural numbers.
+
+```C++
+[victorz@ManjaroKDE 0x01-if_and_loops]$ g++ -Wall -Werror -Wextra 6-sum_natural\:numbers.cpp -o 6-sum_nat_numbers -g
+[victorz@ManjaroKDE 0x01-if_and_loops]$ ./6-sum_nat_numbers
+55
+[victorz@ManjaroKDE 0x01-if_and_loops]$
 
 ```

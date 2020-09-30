@@ -3,20 +3,18 @@
 
 /**
  * main - Enter pointer function
- * printf the numbers natural 
+ * prints the numbers natural 
  * 
- * Return: Always 0 
+ * Return: Always 0
  */
-
-using namespace std;
 int main()
 {
-      int i = 0;
-      while (i < 10)
-      {
-            _putchar(i + '0');
-            i++;
-      }
+	int i = 0;
+	while (i < 10)
+	{
+		_putchar(i + '0');
+		i++;
+	}
 _putchar('\n');
 return (0);
 }
